@@ -190,6 +190,10 @@ nav {
 
 }
 
+#inostriorologi .philipwatchimg {
+    padding-bottom: 25px;
+}
+
 #inostriorologi a:hover {
     color: rgba(39, 37, 37, 0.765);
     text-decoration: underline;
@@ -215,6 +219,7 @@ nav {
     text-align: center;
     font-family: 'Great Vibes', cursive;
     font-size: 65px;
+    padding: 0;
 }
 
 #inostrigioielli a {
@@ -235,6 +240,14 @@ nav {
     transition: .5s;
 }
 
+.inostrigioielliimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 130px;
+}
+
 .gioielli {
     display: flex;
     justify-content: center;
@@ -250,10 +263,9 @@ nav {
 /*BRAND*/
 .brand {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-left: 170px;
     margin-top: 100px;
 }
 
@@ -627,15 +639,11 @@ button[type="submit"]:hover {
 
     .brand {
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    .brand .unoaerreimg {
-        padding-left: 120px;
-    }
-
-    .brand .citizenimg {
-        display: none;
+    .brand .sectorimg {
+        margin-left: 50px;
     }
 
     .row {
@@ -710,15 +718,8 @@ button[type="submit"]:hover {
     }
 
     .brand {
-        flex-direction: row;
-    }
-
-    .brand .milunaimg {
-        display: none;
-    }
-
-    .brand .citizenimg {
-        display: none;
+        flex-direction: column;
+        padding-right: 150px;
     }
 
     .contatti-maps {
@@ -727,6 +728,11 @@ button[type="submit"]:hover {
 }
 
 @media(max-width:1249px) and (min-width: 901px) {
+
+    html {
+        zoom: .8;
+    }
+
     .navbar-links ul li a {
         font-size: 15px;
         padding: 0;
@@ -835,10 +841,6 @@ button[type="submit"]:hover {
         width: 320px;
         height: 400px;
 
-    }
-
-    .brand {
-        display: none;
     }
 
     .row {
