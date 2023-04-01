@@ -526,7 +526,7 @@ button[type="submit"]:hover {
 @media(max-width:900px) {
 
     html {
-        zoom: .6;
+        zoom: .5;
     }
 
     .navbar-links ul li a {
