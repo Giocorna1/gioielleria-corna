@@ -625,12 +625,17 @@ button[type="submit"]:hover {
         height: 400px;
     }
 
-    .brand .citizenimg {
-        display: none;
+    .brand {
+        justify-content: center;
+        flex-direction: column;
     }
 
-    .brand {
-        padding-right: 150;
+    .brand .unoaerreimg {
+        padding-left: 120px;
+    }
+
+    .brand .citizenimg {
+        display: none;
     }
 
     .row {
