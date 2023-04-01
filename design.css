@@ -625,8 +625,12 @@ button[type="submit"]:hover {
         height: 400px;
     }
 
-    .brand {
+    .brand .citizenimg {
         display: none;
+    }
+
+    .brand {
+        padding-right: 150;
     }
 
     .row {
